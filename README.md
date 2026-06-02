@@ -23,8 +23,8 @@ Analyzed 1,700+ book sales records from a Vietnamese e-commerce platform to iden
 
 **4. Recommendations**
 - Prioritize inventory expansion within the five best-selling categories and strengthen partnerships with high-performing publishers. Estimated revenue uplift: 10–15% within the next six months.
-- Implement customer engagement campaigns aimed at increasing book ratings and review volume, targeting an average rating above 4.5 and at least 200 customer reviews per title.
-- Optimize discount strategies within the 15–45% range. For titles already exceeding 45% discount levels, focus on improving customer perception and engagement rather than increasing discounts further.
+- Implement customer engagement campaigns aimed at increasing book ratings and review volume, targeting an average rating **above 4.5** and **at least 200 customer reviews** per book's title.
+- Optimize discount strategies **within the 15–45% range**. For titles already exceeding 45% discount levels, focus on improving customer perception and engagement rather than increasing discounts further.
 - Improve packaging and delivery handling procedures to reduce product damage during shipping, thereby minimizing low-rating feedback associated with delivery quality.
 
 
