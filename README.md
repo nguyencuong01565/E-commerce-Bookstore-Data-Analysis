@@ -5,14 +5,19 @@ Analyzed 1,700+ book sales records from a Vietnamese e-commerce platform to iden
 
 Bộ dữ liệu sử dụng Python (pandas, numpy) để làm sạch, chuẩn hoá dữ liệu trước khi phân tích. Sử dụng matplotlib, scikit-learn để vẽ sơ đồ, khảo sát bộ dữ liệu trước khi đưa vào PowerBI để trực quan hoá bằng Dashboard
 
+## 1.Giới thiệu dataset
 
-1.Giới thiệu dataset
+- Chủ đề: E-commerce (Book product)
+- Độ lớn: 1.700+ dòng dữ liệu 
+  <img width="1265" height="621" alt="Screenshot 2026-06-16 at 15 56 18" src="https://github.com/user-attachments/assets/59d4038a-108d-4ef1-b08a-31c43d25d312" />
 
-- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
-- Power BI (DAX)
-- Excel
+## 2.Tech stack
 
-2.Workflow
+- Excel: EDA sơ bộ dữ liệu, hiểu rõ các trường thông tin và nội dung dataset
+- Python: làm sạch, chuẩn hoá dữ liệu theo mô hình Medallion (Bronze, Silver, Gold) và sử dụng thuật toán để tìm kiếm đặc trưng của sản phẩm sách tiềm năng nhất
+- PowerBI: Trực quan hoá dữ liệu theo nhu cầu từng phòng ban
+
+## 3.
 - Cleaned and transformed raw sales data using Pandas and NumPy.
 - Conducted exploratory data analysis to identify patterns in sales performance, customer engagement, and marketing effectiveness.
 - Applied feature importance analysis to determine factors most strongly associated with book sales performance.
