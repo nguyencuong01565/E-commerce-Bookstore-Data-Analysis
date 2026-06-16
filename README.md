@@ -3,7 +3,11 @@
 Vietnam E-commerce Book Sales Analysis
 Analyzed 1,700+ book sales records from a Vietnamese e-commerce platform to identify revenue drivers, customer preferences, and opportunities for sales optimization.
 
-1.Tools
+Bộ dữ liệu sử dụng Python (pandas, numpy) để làm sạch, chuẩn hoá dữ liệu trước khi phân tích. Sử dụng matplotlib, scikit-learn để vẽ sơ đồ, khảo sát bộ dữ liệu trước khi đưa vào PowerBI để trực quan hoá bằng Dashboard
+
+
+1.Giới thiệu dataset
+
 - Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 - Power BI (DAX)
 - Excel
