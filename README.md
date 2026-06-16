@@ -1,4 +1,4 @@
-🏠 # E-commerce-Bookstore-Data-Analysis
+🏠 #E-commerce-Bookstore-Data-Analysis
 
 Vietnam E-commerce Book Sales Analysis
 Analyzed 1,700+ book sales records from a Vietnamese e-commerce platform to identify revenue drivers, customer preferences, and opportunities for sales optimization.
