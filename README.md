@@ -9,11 +9,12 @@ Bộ dữ liệu sử dụng Python (pandas, numpy) để làm sạch, chuẩn h
 
 - Chủ đề: E-commerce (Book product)
 - Độ lớn: 1.700+ dòng dữ liệu 
-  <img width="1265" height="621" alt="Screenshot 2026-06-16 at 15 56 18" src="https://github.com/user-attachments/assets/59d4038a-108d-4ef1-b08a-31c43d25d312" />
 - Nội dung: Dataset mô tả tổng số lượng sách bán được, rating, view, discount ... và các thông số đi kèm của các đầu sách của sàn TMDT Tada. Dataset cũng ghi nhận các lượt comment, rating người dùng dành cho dịch vụ vận chuyển sách của sàn TMDT. Vậy nên với dataset này, có thể chia làm 3 nội dung chính:
  + Báo cáo tổng quan về các chỉ số KPI 
  + Báo cáo chi tiết số liệu 3 phòng ban: marketing, sale, service
- + Recommend dành cho mỗi phòng ban dựa trên số liệu 
+ + Recommend dành cho mỗi phòng ban dựa trên số liệu
+
+<img width="1265" height="621" alt="Screenshot 2026-06-16 at 15 56 18" src="https://github.com/user-attachments/assets/59d4038a-108d-4ef1-b08a-31c43d25d312" />
   
 ## 2.Tech stack
 
