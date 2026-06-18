@@ -1,7 +1,6 @@
 # E-commerce-Bookstore-Data-Analysis
 
-Vietnam E-commerce Book Sales Analysis
-Analyzed 1,700+ book sales records from a Vietnamese e-commerce platform to identify revenue drivers, customer preferences, and opportunities for sales optimization.
+Phân tích hơn 1.700 dòng dữ liệu từ 1 trang thương mại điện thử chuyên về bán sách.
 
 Bộ dữ liệu sử dụng Python (pandas, numpy) để làm sạch, chuẩn hoá dữ liệu trước khi phân tích. Sử dụng matplotlib, scikit-learn để vẽ sơ đồ, khảo sát bộ dữ liệu trước khi đưa vào PowerBI để trực quan hoá bằng Dashboard
 
