@@ -56,19 +56,41 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 ### 4.3 Visualization
 -Sử dụng PowerBI để visualize dữ liệu theo các câu hỏi insight đã đề cập
 
-3.Key Findings
-- Identified the top three publishers contributing the highest revenue and the best-performing book titles within each publisher portfolio.
-- Determined the five highest-selling book categories, revealing current market demand trends.
-- Found evidence of inefficient marketing spend allocation, with higher discount rates not consistently translating into stronger sales performance.
-- Identified customer rating and review volume as the two factors most strongly associated with book sales performance.
+## 5.Kết quả đạt được & Recommendation
+### 5.1 Sale
+-Dựa vào hệ số feature importance của model Regression, có 3 yếu tố ảnh hưởng mạnh nhất đến Revenue là: Review, Rating và Discount. Điều này đồng nghĩa với nếu tăng được lượng review của sách, tăng số lượng rating tốt (4-5 điểm) cùng với chính sách discount hợp lý thì hoàn toàn có thể push sale được.
+<ảnh>
 
-**4. Recommendations**
-- Prioritize inventory expansion within the five best-selling categories and strengthen partnerships with high-performing publishers. Estimated revenue uplift: 10–15% within the next six months.
-- Implement customer engagement campaigns aimed at increasing book ratings and review volume, targeting an average rating **above 4.5** and **at least 200 customer reviews** per book's title.
-- Optimize discount strategies **within the 15–45% range**. For titles already exceeding 45% discount levels, focus on improving customer perception and engagement rather than increasing discounts further.
-- Improve packaging and delivery handling procedures to reduce product damage during shipping, thereby minimizing low-rating feedback associated with delivery quality.
+### Hành động recommend
+-Gửi thông báo khuyến khích khách hàng review + rating sách sau khi mua hàng từ 10-15 ngày. Mỗi review/rating sẽ được 01 voucher giảm giá 5-10% cho lần mua hàng kế tiếp.
+-Tri ân top review: Tri ân 1 phần quà trị giá 500.000đ cho top 1 reviewer mỗi tháng
+-Tạo banner giới thiệu các loại sách được top review/rating. Banner có thể thay đổi nội dung sau mỗi 3 ngày.
+<ảnh>
 
+### Category tiềm năng
+-Top 5 category dưới đây vừa có doanh thu thuộc top, vừa có số lượng bán thuộc top sàn TMDT. Đây chính là top category tiềm năng cho các nhà bán hàng trên TMDT có thể nhập theo các đầu sách trên để tăng doanh thu
+<ảnh>
+-Thêm vào đó, tệp sách có giá bìa từ 100-250.000đ là tập sách có số lượng bán tốt nhất
+<ảnh>
+### Hành động recommend
+-Với sale team, hãy cố gắng nhập các đầu sách tương ứng với 5 category đang bán chạy nhất và giá bìa sách trong khoảng từ 100-250.000đ để tối ưu chi phí cũng như khả năng gia tăng doanh thu
 
+### 5.2 Marketing
+-Số liệu đã chỉ ra rằng đối với danh mục discount, mức tối ưu cho discount chỉ nằm trong khoảng từ 15-45%. Khi vượt quá 45%, doanh thu ghi nhận không có sự tăng trưởng vượt. Điều này phù hợp với mô hình feature importance: Discount chỉ là 1 trong 3 yếu tố thúc đẩy doanh số và số lượng bán của sách.
+<ảnh>
+
+### Hành động recommend
+-Với các đầu sách có discount > 45%, thay vì tiếp tục tăng discount, hãy chuyển sang chiến lược gia tăng review và rating ( tối thiểu 4.5 rating và > 200 review ). Thay vì sử dụng ngân sách cho discount, hãy khuyến khích người mua rating, review sách bằng các loại voucher giảm giá, freeship ...
+<ảnh>
+
+### 5.3 Delivery service
+-Với dịch vụ vận chuyển, team vận chuyển đang đối mặt với 3 vấn đề: 
+ +Sách bị móp méo, cong vênh khi giao
+ +Thiếu hàng hoặc giao nhầm hàng
+ +Giao hàng chậm hơn 1-3 ngày so với dự kiến
+
+### Hành động recommend
+Vì đây là sàn TMDT và dịch vụ vận chuyển được thực hiện bởi các công ty chuyên về vận chuyển, vì vậy hãy feedback lại các vấn đề về dịch vụ đối với các nhà cung cấp để họ tự điều chỉnh. Hãy theo dõi thêm 1-3 tháng nữa, nếu vấn đề tiếp tục phát sinh, có thể cân nhắc chuyển qua các nhà cung cấp dịch vụ vận chuyển khác.
 
 
 
