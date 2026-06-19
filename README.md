@@ -52,7 +52,9 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 
 ### 4.2 EDA 
 -Sử dụng Excel, Python để khám phá dữ liệu ở mức cơ bản, hiểu các thông số và thuộc tính của từng cột
+
 -Sử dụng Scikit-learn Python để xác định các yếu tố quyết định 1 đầu sách có bán chạy hay không
+
 -Sử dụng SQL phân tích và kiểm tra các chỉ số về sale, discount, top nhà xuất bản, top sách bán chạy ....
 
 ### 4.3 Visualization
@@ -60,12 +62,14 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 
 ## 5.Kết quả đạt được & Recommendation
 ### 5.1 Sale
--Dựa vào hệ số feature importance của model Regression, có 3 yếu tố ảnh hưởng mạnh nhất đến Revenue là: Review, Rating và Discount. Điều này đồng nghĩa với nếu tăng được lượng review của sách, tăng số lượng rating tốt (4-5 điểm) cùng với chính sách discount hợp lý thì hoàn toàn có thể push sale được.
+Dựa vào hệ số feature importance của model Regression, có 3 yếu tố ảnh hưởng mạnh nhất đến Revenue là: Review, Rating và Discount. Điều này đồng nghĩa với nếu tăng được lượng review của sách, tăng số lượng rating tốt (4-5 điểm) cùng với chính sách discount hợp lý thì hoàn toàn có thể push sale được.
 <ảnh>
 
 ### Hành động recommend
 -Gửi thông báo khuyến khích khách hàng review + rating sách sau khi mua hàng từ 10-15 ngày. Mỗi review/rating sẽ được 01 voucher giảm giá 5-10% cho lần mua hàng kế tiếp.
+
 -Tri ân top review: Tri ân 1 phần quà trị giá 500.000đ cho top 1 reviewer mỗi tháng
+
 -Tạo banner giới thiệu các loại sách được top review/rating. Banner có thể thay đổi nội dung sau mỗi 3 ngày.
 <ảnh>
 
@@ -78,11 +82,11 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 -Với sale team, hãy cố gắng nhập các đầu sách tương ứng với 5 category đang bán chạy nhất và giá bìa sách trong khoảng từ 100-250.000đ để tối ưu chi phí cũng như khả năng gia tăng doanh thu
 
 ### 5.2 Marketing
--Số liệu đã chỉ ra rằng đối với danh mục discount, mức tối ưu cho discount chỉ nằm trong khoảng từ 15-45%. Khi vượt quá 45%, doanh thu ghi nhận không có sự tăng trưởng vượt. Điều này phù hợp với mô hình feature importance: Discount chỉ là 1 trong 3 yếu tố thúc đẩy doanh số và số lượng bán của sách.
+Số liệu đã chỉ ra rằng đối với danh mục discount, mức tối ưu cho discount chỉ nằm trong khoảng từ 15-45%. Khi vượt quá 45%, doanh thu ghi nhận không có sự tăng trưởng vượt. Điều này phù hợp với mô hình feature importance: Discount chỉ là 1 trong 3 yếu tố thúc đẩy doanh số và số lượng bán của sách.
 <ảnh>
 
 ### Hành động recommend
--Với các đầu sách có discount > 45%, thay vì tiếp tục tăng discount, hãy chuyển sang chiến lược gia tăng review và rating ( tối thiểu 4.5 rating và > 200 review ). Thay vì sử dụng ngân sách cho discount, hãy khuyến khích người mua rating, review sách bằng các loại voucher giảm giá, freeship ...
+Với các đầu sách có discount > 45%, thay vì tiếp tục tăng discount, hãy chuyển sang chiến lược gia tăng review và rating ( tối thiểu 4.5 rating và > 200 review ). Thay vì sử dụng ngân sách cho discount, hãy khuyến khích người mua rating, review sách bằng các loại voucher giảm giá, freeship ...
 <ảnh>
 
 ### 5.3 Delivery service
