@@ -43,8 +43,11 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 ## 4.Work flow
 ### 4.1 Cleaning
 -Sử dụng Python để tách dataset làm 2 phần: Bronze - Silver - Gold. 
+
 -Dataset bronze: giữ nguyên gốc dataset 
+
 -Dataset silver: Chuẩn hoá chính tả, fill null, loại bỏ duplicate
+
 -Dataset gold: Thêm các trường thông tin phụ như: discount percentage, revenue ...
 
 ### 4.2 EDA 
