@@ -92,8 +92,11 @@ Với các đầu sách có discount > 45%, thay vì tiếp tục tăng discount
 
 ### 5.3 Delivery service
 -Với dịch vụ vận chuyển, team vận chuyển đang đối mặt với 3 vấn đề: 
+
  +Sách bị móp méo, cong vênh khi giao
+ 
  +Thiếu hàng hoặc giao nhầm hàng
+ 
  +Giao hàng chậm hơn 1-3 ngày so với dự kiến
 
 ### Hành động recommend
