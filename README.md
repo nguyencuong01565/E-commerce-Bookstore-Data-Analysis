@@ -60,6 +60,7 @@ Từ các vấn đề đã được nêu, dataset sẽ tập trung vào 3 câu h
 ### 4.3 Visualization
 -Sử dụng PowerBI để visualize dữ liệu theo các câu hỏi insight đã đề cập
 
+
 ## 5.Kết quả đạt được & Recommendation
 ### 5.1 Sale
 Dựa vào hệ số feature importance của model Regression, có 3 yếu tố ảnh hưởng mạnh nhất đến Revenue là: Review, Rating và Discount. Điều này đồng nghĩa với nếu tăng được lượng review của sách, tăng số lượng rating tốt (4-5 điểm) cùng với chính sách discount hợp lý thì hoàn toàn có thể push sale được.
